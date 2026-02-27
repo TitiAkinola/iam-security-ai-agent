@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/python-3.12+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![AI](https://img.shields.io/badge/Gemini-3--Flash--Preview-9b59b6.svg)
+
+
 AI-Powered IAM Security Auditor
 An automated Security Agent that bridges the gap between Gemini-3-flash-preview reasoning and local Python security tools to audit AWS IAM policies.
 
