@@ -24,6 +24,8 @@ Libraries: google-genai, rich
 
 Infrastructure: AWS IAM Policy structure
 
+Reasoning: Optimized for low-latency, high-frequency "Agentic Loops".
+
 📖 How It Works
 Input: The user provides an IAM policy file (e.g., policy_sample.json).
 
