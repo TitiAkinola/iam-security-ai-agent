@@ -1,0 +1,8 @@
+{
+    "resources": [
+        {"id": "disk-99", "type": "storage", "status": "available", "monthly_cost": 45.00},
+        {"id": "disk-10", "type": "storage", "status": "in-use", "monthly_cost": 20.00},
+        {"id": "lb-alpha", "type": "load_balancer", "active_targets": 0, "monthly_cost": 18.00},
+        {"id": "db-prod", "type": "database", "status": "active", "monthly_cost": 150.00}
+    ]
+}

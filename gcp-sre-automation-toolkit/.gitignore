@@ -1,0 +1,32 @@
+#the .gitignore file is your primary defense against accidentally sharing sensitive information
+# (like API keys or internal project IDs) with the world.
+#Prevents uploading "junk" files that Python creates when it runs.
+# --- Python Specifics ---
+__pycache__/
+venv/
+.env
+
+# --- GCP & Security (Critical for CloudSec SRE) ---
+# Prevents leaking service account keys or private JSON configs [cite: 17]
+*.json
+.gcloud/
+
+# --- Infrastructure as Code (Terraform) ---
+# Prevents uploading local state which contains sensitive metadata [cite: 11, 18]
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# --- System Logs & Junk ---
+*.log
+.DS_Store
+
+#Professionalism: Recruiters looking at your GitHub will see that you understand Security Best Practices,
+#which is vital for a CloudSec SRE role.
+
+#Cleaner Commits: It ensures your "1 year of experience" looks organized rather than cluttered with 
+#temporary system files.
+#Safety: As you transition from a Solutions Engineer to an SRE, 
+#protecting infrastructure access (IAM) is a core part of your responsibility.
+
+
