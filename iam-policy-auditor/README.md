@@ -1,5 +1,5 @@
 AI-Powered IAM Security Auditor
-An automated Security Agent that bridges the gap between Gemini 2.0 Flash reasoning and local Python security tools to audit AWS IAM policies.
+An automated Security Agent that bridges the gap between Gemini-3-flash-preview reasoning and local Python security tools to audit AWS IAM policies.
 
 🚀 Key Features
 Agentic Execution Loop: Utilizes a manual function-calling loop where the AI autonomously identifies the need for a security scan and triggers a local Python "bridge" (iam_tools.py).
