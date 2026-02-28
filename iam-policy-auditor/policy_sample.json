@@ -1,10 +1,8 @@
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": "*",
-            "Resource": "*"
-        }
-    ]
+  "bindings": [
+    {
+      "members": ["serviceAccount:dev-app-runner@my-project.iam.gserviceaccount.com"],
+      "role": "roles/owner" 
+    }
+  ]
 }
