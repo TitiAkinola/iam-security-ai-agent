@@ -40,7 +40,7 @@ client = genai.Client(api_key=api_key)
 
 # 4. Initialize the AI Agent Session with Gemini 3 Flash
 chat = client.chats.create(
-    model='gemini-3-flash',
+    model='models/gemini-3-flash-preview',
     config=types.GenerateContentConfig(
         tools=[ai_audit_tool],
         tool_config=types.ToolConfig(
